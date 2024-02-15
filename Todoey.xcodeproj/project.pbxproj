@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3BB2CD02B78CE7D00255007 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BB2CCF2B78CE7D00255007 /* Item.swift */; };
 		B3FB9ABA2B71CFFC001528C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB9AB92B71CFFC001528C1 /* AppDelegate.swift */; };
 		B3FB9ABC2B71CFFC001528C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB9ABB2B71CFFC001528C1 /* SceneDelegate.swift */; };
 		B3FB9ABE2B71CFFC001528C1 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FB9ABD2B71CFFC001528C1 /* TodoListViewController.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B3BB2CCF2B78CE7D00255007 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B3FB9AB62B71CFFC001528C1 /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FB9AB92B71CFFC001528C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3FB9ABB2B71CFFC001528C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +42,7 @@
 		B3BB2CD12B78CE9B00255007 /* Data Model */ = {
 			isa = PBXGroup;
 			children = (
-				B3BB2CCF2B78CE7D00255007 /* Item.swift */,
+				B3FB9AC22B71CFFC001528C1 /* Todoey.xcdatamodeld */,
 			);
 			path = "Data Model";
 			sourceTree = "<group>";
@@ -100,7 +98,6 @@
 				B3BB2CD32B78CED500255007 /* Views */,
 				B3BB2CD42B78CF0400255007 /* Supporting Files */,
 				B3FB9ACA2B71CFFD001528C1 /* Info.plist */,
-				B3FB9AC22B71CFFC001528C1 /* Todoey.xcdatamodeld */,
 			);
 			path = Todoey;
 			sourceTree = "<group>";
@@ -176,7 +173,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3BB2CD02B78CE7D00255007 /* Item.swift in Sources */,
 				B3FB9ABE2B71CFFC001528C1 /* TodoListViewController.swift in Sources */,
 				B3FB9ABA2B71CFFC001528C1 /* AppDelegate.swift in Sources */,
 				B3FB9ABC2B71CFFC001528C1 /* SceneDelegate.swift in Sources */,
