@@ -20,7 +20,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
-        print("sceneDidDisconnect")
     }
 
     func sceneDidBecomeActive(_ scene: UIScene) {
@@ -39,11 +38,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 
     func sceneDidEnterBackground(_ scene: UIScene) {
-        // Приложение ушло в фоновый режим
-        print("sceneDidEnterBackground")
-        (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
-
-
 }
 
